@@ -59,6 +59,11 @@ humans.push(new Person("Messi", 400));
 //   console.log(human.greeting(), arr[i]);
 // }
 
+for (let i = 0; i < humans.length; i++) {
+  const human = humans[i];
+  console.log(human.greeting());
+}
+
 // console.log(humans);
 
 // !Another way to do a loop
